@@ -1,0 +1,1 @@
+import {state} from "../core/state.js";export function bagCount(){return state.bag.corn+state.bag.egg}export function canCarry(){return bagCount()<state.bagMax}export function addItem(type,n=1){if(bagCount()+n>state.bagMax)return false;state.bag[type]+=n;return true}

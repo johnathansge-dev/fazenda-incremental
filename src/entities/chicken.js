@@ -1,0 +1,1 @@
+export function createChicken(x,y){return{x,y,hungry:true,nextEgg:0}}

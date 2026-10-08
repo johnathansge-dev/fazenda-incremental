@@ -1,0 +1,1 @@
+export function createDrop(x,y,type){return{x,y,type}}

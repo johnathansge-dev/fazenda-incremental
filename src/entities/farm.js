@@ -1,0 +1,1 @@
+export function createFarm(){const plots=[];for(let y=0;y<3;y++)for(let x=0;x<3;x++)plots.push({x:x+5,y:y+8,type:"corn",ready:false,planted:0,stage:0,starting:true});plots.push({x:6,y:7,type:"unused",unlock:"corn",cost:400,ready:false,planted:0});return plots}

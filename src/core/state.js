@@ -1,0 +1,1 @@
+export const state={money:500,bag:{corn:0,egg:0},bagMax:20,unlocked:{corn:true,chicken:false},plots:[],chickens:[],drops:[],buyers:[{name:"Ana",need:"corn",qty:3,reward:120},{name:"Bruno",need:"corn",qty:6,reward:240},{name:"Clara",need:"egg",qty:3,reward:210}],selectedUnlock:null};export const player={x:7*48+24,y:9*48+24,speed:190,tool:"hoe"};export const keys={};

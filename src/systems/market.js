@@ -1,0 +1,1 @@
+import {state} from "../core/state.js";export function sellBuyer(i){const b=state.buyers[i],have=state.bag[b.need]||0;if(have<b.qty)return false;state.bag[b.need]-=b.qty;state.money+=b.reward;b.qty=Math.floor(Math.random()*5)+2;b.reward=b.need==="corn"?b.qty*40:b.qty*70;return true}

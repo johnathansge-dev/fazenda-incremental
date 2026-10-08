@@ -1,0 +1,1 @@
+import {keys} from "../core/state.js";export function initInput(){addEventListener("keydown",e=>{keys[e.key.toLowerCase()]=true;if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"," "].includes(e.key))e.preventDefault();});addEventListener("keyup",e=>keys[e.key.toLowerCase()]=false)}

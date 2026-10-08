@@ -1,0 +1,1 @@
+export const TILE=48,WORLD_W=28,WORLD_H=18;export const GAME_CONFIG={initialMoney:500,bagCapacity:20,cropGrowthMs:12000,chickenEggCooldownMs:15000,feedCost:1};

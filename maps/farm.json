@@ -1,0 +1,29 @@
+{
+  "width": 28,
+  "height": 18,
+  "tileSize": 48,
+  "startingFarm": {
+    "x": 5,
+    "y": 8,
+    "width": 3,
+    "height": 3
+  },
+  "firstExpansion": {
+    "x": 6,
+    "y": 7,
+    "type": "corn",
+    "cost": 400
+  },
+  "market": {
+    "x": 22,
+    "y": 8
+  },
+  "feedArea": {
+    "x": 17,
+    "y": 12
+  },
+  "house": {
+    "x": 4,
+    "y": 4
+  }
+}

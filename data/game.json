@@ -1,0 +1,30 @@
+{
+  "name": "Fazenda Incremental",
+  "version": "0.2.0",
+  "initialMoney": 500,
+  "bagCapacity": 20,
+  "startingFarm": {
+    "width": 3,
+    "height": 3
+  },
+  "expansions": [
+    {
+      "id": "corn_field_01",
+      "type": "corn",
+      "cost": 400
+    },
+    {
+      "id": "chicken_area_01",
+      "type": "chicken",
+      "cost": 1000
+    }
+  ],
+  "startingTools": [
+    "hoe",
+    "watering_can"
+  ],
+  "startingCrop": "corn",
+  "cropGrowthSeconds": 12,
+  "chickenEggCooldownSeconds": 15,
+  "chickenFeedCost": 1
+}

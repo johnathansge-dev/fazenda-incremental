@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Fazenda Incremental</title>
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<div id="game"><canvas id="gameCanvas"></canvas>
+<div id="hud"><div id="money">$500</div><div id="bag">🎒 0/20</div><div id="message"></div></div>
+<div id="help">WASD / Setas: andar · E: interagir · I: mochila</div>
+<div id="inventoryPanel" class="panel hidden"><h3>Mochila</h3><div id="inventory"></div></div>
+<div id="marketPanel" class="panel hidden"><h3>Mercado</h3><div id="buyers"></div><button id="closeMarket">Fechar</button></div>
+<div id="unlockPanel" class="panel hidden"><h3>Desbloqueio</h3><div id="unlockText"></div><button id="unlockButton">Desbloquear</button><button id="closeUnlock">Cancelar</button></div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
